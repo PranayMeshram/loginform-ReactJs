@@ -6,7 +6,7 @@
 }
 
 body{
-  background: #290c15;  /* fallback for old browsers */
+  background: #290c15; 
   background: -webkit-linear-gradient(to right, #3e2428, #632b38, #290c1d);  
   background: linear-gradient(to right, #3e242f, #632b4d, #290c1a);
   
@@ -23,8 +23,6 @@ a{
   display:flex;
   border: 1px solid #e9ecef;
   border-radius: 5px;
-  /* box-shadow: 1px 3px 10px #e9ecef; */
-  /* background-color: rgba(64, 54, 102, 0.629); */
   background-image: url(normal2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,10 +73,7 @@ a{
   flex-direction: column;
 }
 
-.register .col-1{
-  margin: auto;
-  padding: 3em 0;
-}
+
 
 .register .col-2 img{
   width: 480px;
@@ -88,6 +83,11 @@ a{
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   display: none;
+}
+
+.register .col-1{
+  margin: auto;
+  padding: 3em 0;
 }
 
 @media screen and (min-width: 860px)  {
