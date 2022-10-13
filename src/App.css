@@ -7,23 +7,16 @@
 
 body{
   background: #290c15;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3e2428, #632b38, #290c1d);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #3e242f, #632b4d, #290c1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #3e2428, #632b38, #290c1d);  
+  background: linear-gradient(to right, #3e242f, #632b4d, #290c1a);
   
 }
 a{
   text-decoration: none;
 }
-
-
-.App {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.h1{
+  color:#99bec8;
 }
-
 .register{
   max-width: 978px;
   width: 100vw;
@@ -63,8 +56,14 @@ a{
   font-size: 1em;
   cursor: pointer;
 }
-.h1{
-  color:#99bec8;
+
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .flex{
